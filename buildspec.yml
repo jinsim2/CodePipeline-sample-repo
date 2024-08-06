@@ -16,9 +16,13 @@ phases:
     commands:
       - echo Packaging application
       - mv target/controller-1.0.0-BUILD-SNAPSHOT.war myapp.war
+      - ls -al
   post_build:
     commands:
       - echo Build completed on `date`
+      - ls -al
+      - ls -al ExProject
+      - ls -al ExProject/target
 artifacts:
   files:
     - ExProject/myapp.war
