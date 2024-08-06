@@ -10,6 +10,7 @@ phases:
   pre_build:
     commands:
       - echo Build started on `date`
+      - cd ExProject
       - mvn clean install
   build:
     commands:
