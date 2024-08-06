@@ -7,3 +7,4 @@ mv /usr/local/tomcat/webapps/myapp.war /usr/local/tomcat/webapps/ExProject.war
 
 # Tomcat 재시작 (시스템에 따라 명령어가 다를 수 있음)
 sudo systemctl restart tomcat9
+
